@@ -11,9 +11,36 @@ header {
 
 main {
     background-color: #F5A331;
-
+    margin: auto;
+    height:600px;
 }
 
 footer {
     background-color:#E8CD20;
+}
+
+#photos img { 
+     width: 85%;
+    margin: auto; 
+}
+
+/* #photos {
+    position: relative;
+    margin: auto;
+    display: inline;
+} */
+
+#images {
+    list-style: none;
+    margin: auto;
+    height: max-content;
+    width: 100%;
+}
+
+.pics {
+    display: block;
+    margin: auto;
+    float: left;
+    width: 30%;
+    margin: 8px;
 }
